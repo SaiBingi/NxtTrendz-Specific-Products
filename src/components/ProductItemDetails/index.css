@@ -1,0 +1,264 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+  min-height: 100vh;
+}
+
+.product-items-container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+  width: 90%;
+}
+
+.product-item-image {
+  width: 100%;
+  border-radius: 12px;
+  max-width: 500px;
+  max-height: 520px;
+}
+
+.product-item-title {
+  font-size: 24px;
+  color: #475569;
+  font-weight: 500;
+}
+
+.price {
+  font-size: 16px;
+  line-height: 2;
+}
+
+.product-rating {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3b82f6;
+  width: 65px;
+  border-radius: 5px;
+  font-size: 17px;
+  color: #ffffff;
+}
+
+.star-icon {
+  width: 20px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  margin-left: 6px;
+}
+
+.rating-review {
+  display: flex;
+  align-items: center;
+  line-height: 2;
+}
+
+.review {
+  margin-left: 9px;
+  font-size: 12px;
+}
+
+.description {
+  line-height: 1.5;
+  color: #616e7c;
+}
+
+.available-and-brand {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.available-and-brand-value {
+  color: #616e7c;
+  font-weight: 400;
+  margin-left: 9px;
+}
+
+.hr-line {
+  border: none;
+  height: 1px;
+  background-color: #cbced2;
+}
+
+.increase-decrease-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100px;
+  margin-left: -10px;
+  cursor: pointer;
+}
+
+.increase-decrease-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 18px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.add-delete-icon {
+  width: 35px;
+  height: 18px;
+  color: #616e7c;
+}
+
+.count-display {
+  font-size: 20px;
+  color: #475569;
+  font-weight: 500;
+}
+
+.add-to-cart-button {
+  background-color: #3b82f6;
+  font-family: 'Roboto';
+  border: none;
+  color: #ffffff;
+  border-radius: 5px;
+  padding: 12px 20px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.similar-products-heading {
+  font-size: 25px;
+  color: #475569;
+  font-weight: 500;
+  align-self: flex-start;
+}
+
+.similar-products-list {
+  padding-left: 0px;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.error-view {
+  width: 300px;
+  height: 200px;
+}
+
+.product-error-view-message {
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 2.5;
+  margin-bottom: 0;
+}
+
+.error-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+  height: 75vh;
+}
+
+.continue-shopping-button {
+  background-color: #3b82f6;
+  border: none;
+  color: #ffffff;
+  font-family: 'Roboto';
+  padding: 8px 14px;
+  font-size: 13px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.nav-item-link {
+  text-decoration: none;
+}
+
+.similar-product-items-container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+  width: 90%;
+}
+
+.available-brand {
+  display: flex;
+  align-items: center;
+  line-height: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .similar-product-items-container {
+    padding: 0px;
+    width: 76%;
+  }
+
+  .continue-shopping-button {
+    font-size: 14px;
+    padding: 10px 18px;
+  }
+
+  .product-item-image {
+    width: 45%;
+    flex-shrink: 0;
+    margin-right: 40px;
+  }
+
+  .product-error-view-message {
+    font-size: 35px;
+  }
+
+  .product-rating {
+    width: 80px;
+  }
+
+  .product-items-container {
+    padding: 0px;
+    flex-direction: row;
+    width: 76%;
+  }
+
+  .product-item-title {
+    font-size: 50px;
+    margin: 0px;
+  }
+
+  .price {
+    font-size: 23px;
+    line-height: 3.5;
+  }
+
+  .rating-review {
+    line-height: 0.5;
+  }
+
+  .review {
+    font-size: 16px;
+  }
+
+  .description {
+    font-size: 18px;
+  }
+
+  .available-and-brand {
+    font-size: 19px;
+  }
+
+  .count-display {
+    font-size: 24px;
+  }
+
+  .similar-products-heading {
+    font-size: 35px;
+    margin-top: 70px;
+    margin-bottom: 10px;
+  }
+
+  .error-view {
+    width: 500px;
+    height: 330px;
+  }
+}
